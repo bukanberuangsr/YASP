@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YASUP</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap">
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+            <h1>Welcome back User!</h1>
+            <p>What will you do today?</p>
+            <div class="square-img">
+                <img src="src/img/giphy.webp"></img>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="link-container">
+                <div class="category">
+                    <p id="campus">CAMPUS</p>
+                    <a href="https://brone.ub.ac.id">Brone UB</a>
+                    <a href="https://siam.ub.ac.id">SIAM UB</a>
+                    <a href="https://filkom.ub.ac.id/">Filkom UB</a>
+                    <a href="https://filkom.ub.ac.id/legacy/auth">Filkom Apps</a>
+                </div>
+                <div class="category">
+                    <p id="dev">DEV</p>
+                    <a href="https://www.github.com">Github</a>
+                    <a href="https://www.gitlab.com">Gitlab</a>
+                    <a href="https://www.hackerrank.com">Hackerrank</a>
+                    <a href="https://www.w3schools.com/">W3School</a>
+                </div>
+                <div class="category">
+                    <p id="media">MEDIA</p>
+                    <a href="https://www.instagram.com/">Instagram</a>
+                    <a href="https://www.youtube.com">Youtube</a>
+                    <a href="https://music.youtube.com">YT Music</a>
+                    <a href="https://www.linkedin.com">LinkedIn</a>
+                </div>
+            </div>
+            <div class="search">
+                <form id="search" onsubmit="performSearch(event)">
+                    <input type="search" name="search" id="search-input" placeholder="Search something..." autofocus>
+                </form>
+            </div>
+            <div class="time-container">
+                <p>Today is: <strong id="time">Loading...</strong></p>
+            </div>
+        </div>
+    </div>
+    <script src="src/js/displayDateTime.js"></script>
+    <script src="src/js/search.js"></script>
+</body>
+</html>
