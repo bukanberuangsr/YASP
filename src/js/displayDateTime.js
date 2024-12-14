@@ -11,7 +11,8 @@ function displayDateTime() {
     const formattedDate = `${day} ${month} ${year}`;
     const formattedTime = `${hours}:${minutes}`;
 
-    document.getElementById("time").innerHTML = `${formattedDate} at ${formattedTime}`;
+    document.getElementById("date").innerHTML = `${formattedDate}`;
+    document.getElementById("time").innerHTML = `${formattedTime}`;
 }
 
 displayDateTime();
