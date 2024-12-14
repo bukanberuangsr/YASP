@@ -36,3 +36,7 @@ Thats it btw. Maybe there's more in the future.
   4. Open settings and select the On Startup tab
   5. Select the third option and add YASP github page
   6. you're good to go!
+
+## Credits
+
+* GIF: <https://giphy.com/gifs/80s-synthwave-aesthetic-k5zu35npVsYfgZQwwl>
