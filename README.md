@@ -25,8 +25,8 @@ Thats it btw. Maybe there's more in the future.
    4. Open settings menu
    5. Click the home tab
    6. Change the default new tabs option with New Tab Override
-   7. Change the default homepage and new windows option to custom URL (optional)
-   8. Insert the github pages link (optional)
+   7. Change the default homepage and new windows option to custom URL
+   8. Insert the github pages link
    9. You're ready to go!
 
 * ### Google Chrome via "New Tab Redirect" Extension
