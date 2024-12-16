@@ -5,6 +5,8 @@
 YASP is my new attempt on creating a perfect browser start page. Silly  reasoning, I know. But I take this as an opportunity to be productive since college finals has already finished.
 ![YASP Preview](src/img/YASP.png)
 
+> looks good right?
+
 ## Features
 
 There is not a whole lot of features here, but here it is anyway:
