@@ -13,16 +13,15 @@
     <div class="container">
         <div class="left">
             <h1>Welcome back User!</h1>
-            <p>What will you do today?</p>
+            <p>Please, do your best today too.</p>
+            <div class="time-container">
+                <p><strong id="date">Loading...</strong>, <strong id="time">Loading...</strong></p>
+            </div>
             <div class="square-img">
                 <img src="src/img/giphy.webp"></img>
             </div>
         </div>
         <div class="right">
-            <div class="time-container">
-                <p>Date: <strong id="date">Loading...</strong></p>
-                <p>Time: <strong id="time">Loading...</strong></p>
-            </div>
             <div class="search">
                 <form id="search" onsubmit="performSearch(event)">
                     <input type="search" name="search" id="search-input" placeholder="Search something..." autofocus>
@@ -30,25 +29,32 @@
             </div>
             <div class="link-container">
                 <div class="category">
-                    <h3 id="campus">CAMPUS</h3>
-                    <a href="https://brone.ub.ac.id">Brone UB</a>
+                    <h3>CAMPUS</h3>
                     <a href="https://siam.ub.ac.id">SIAM UB</a>
-                    <a href="https://filkom.ub.ac.id/">Filkom UB</a>
-                    <a href="https://filkom.ub.ac.id/legacy/auth">Filkom Apps</a>
+                    <a href="https://brone.ub.ac.id">Brone UB</a>
+                    <a href="https://filkom.ub.ac.id/">FILKOM UB</a>
+                    <a href="https://filkom.ub.ac.id/legacy/auth">FILKOM Apps</a>
                 </div>
                 <div class="category">
-                    <h3 id="dev">DEV</h3>
+                    <h3>DEV</h3>
                     <a href="https://www.github.com">Github</a>
                     <a href="https://www.gitlab.com">Gitlab</a>
-                    <a href="https://www.hackerrank.com">Hackerrank</a>
                     <a href="https://www.w3schools.com/">W3School</a>
+                    <a href="https://www.hackerrank.com">Hackerrank</a>
                 </div>
                 <div class="category">
-                    <h3 id="media">MEDIA</h3>
-                    <a href="https://www.instagram.com/">Instagram</a>
+                    <h3>SOCIAL</h3>
+                    <a href="https://www.reddit.com">Reddit</a>
+                    <a href="https://www.twitter.com">Twitter</a>
                     <a href="https://www.youtube.com">Youtube</a>
-                    <a href="https://music.youtube.com">YT Music</a>
-                    <a href="https://www.linkedin.com">LinkedIn</a>
+                    <a href="https://www.instagram.com/">Instagram</a>
+                </div>
+                <div class="category">
+                    <h3>CLASS</h3>
+                    <a href="https://docs.google.com">Docs</a>
+                    <a href="https://docs.google.com/spreadsheets/">Sheets</a>
+                    <a href="https://scholar.google.com">Scholar</a>
+                    <a href="https://classroom.google.com/">Classroom</a>
                 </div>
             </div>
         </div>
