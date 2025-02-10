@@ -64,8 +64,6 @@ body {
 
 .right {
     display: flex;
-    width: 460px;
-    height: 396px;
     flex-direction: column;
     padding: 20px;
 }
