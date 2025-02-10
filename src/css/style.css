@@ -83,7 +83,6 @@ body {
     display: table;
     text-decoration: none;
     color: var(--link-color);
-    /* margin-bottom: 5px; */
     transition: color 0.2s;
 }
 
