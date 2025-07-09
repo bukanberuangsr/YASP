@@ -2,7 +2,7 @@
 
 ## Description
 
-YASP is my new attempt on creating a perfect browser start page. Silly  reasoning, I know. But I take this as an opportunity to be productive since college finals has already finished.
+YASP is my new attempt on creating a perfect browser start page. Silly reasoning, I know. But I take this as an opportunity to be productive since college finals has already finished.
 ![YASP Preview](src/img/YASP.png)
 
 > looks good right?
@@ -16,29 +16,6 @@ There is not a whole lot of features here, but here it is anyway:
 3. links to click on
 
 Thats it btw. Maybe there's more in the future.
-
-## How to use YASP
-
-* ### Firefox via "New Tab Override" Extension
-
-   1. Download the extension from <https://addons.mozilla.org/en-US/firefox/addon/new-tab-override/>
-   2. Set the option to "custom URL"
-   3. Put the link in the URL bar
-   4. Open settings menu
-   5. Click the home tab
-   6. Change the default new tabs option with New Tab Override
-   7. Change the default homepage and new windows option to custom URL
-   8. Insert the github pages link
-   9. You're ready to go!
-
-* ### Google Chrome via "New Tab Redirect" Extension
-
-  1. Download the extension from <https://chromewebstore.google.com/detail/new-tab-redirect/icpgjfneehieebagbmdbhnlpiopdcmna>
-  2. Click "set options" right after its finished installing
-  3. Change the redirect URL with YASP github page and click save
-  4. Open settings and select the On Startup tab
-  5. Select the third option and add YASP github page
-  6. you're good to go!
 
 ## Credits
 
