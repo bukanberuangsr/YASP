@@ -14,6 +14,7 @@ There is not a whole lot of features here, but here it is anyway:
 1. Search stuff with duckduckgo
 2. Nice gif that stares at you
 3. links to click on
+4. Responsive
 
 Thats it btw. Maybe there's more in the future.
 
