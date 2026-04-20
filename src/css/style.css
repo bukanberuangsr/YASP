@@ -61,10 +61,19 @@ body {
     margin: 0;
 }
 
+.left p {
+    font-family: 'Iosevka Nerd Font Propo', monospace;
+}
+
 .square-img img {
     width: 360px;
     max-width: 500px;
     height: auto;
+}
+
+.time-container strong {
+    text-align: left;
+    font-family: 'Iosevka Nerd Font Propo', monospace;
 }
 
 .right {
