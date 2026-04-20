@@ -1,10 +1,19 @@
 :root {
-    --background-color: #131313;
+    --background-color: #0a1612;
+    --background-container-color: #16221e;
+    --text-color: #ffffff;
+    --text-grey: #334B46;
+    --accent: #b2d26b;
+    --link-color: #38C6B7;
+    --link-dim: #107678;
+
+    /* --background-color: #131313;
+    --background-container-color: #131313;
     --text-color: #ffffff;
     --text-grey: #6d6d6d;
-    --pink: #E621AF;
+    --accent: #E621AF;
     --link-color: #09e4e6;
-    --link-dim: #08babd;
+    --link-dim: #08babd; */
 }
 
 ::moz-selection {
@@ -18,13 +27,15 @@
 }
 
 body {
-    background-color: var(--background-color);
+    /* background-color: var(--background-color); */
+    background: url("/src/img/castle.jpg") rgba(10, 22, 18, 0.6);
+    background-blend-mode: multiply;
     background-size: cover;
     color: var(--text-color);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Gugi', monospace;
+    font-family: 'Iosevka Nerd Font Propo', monospace;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -32,42 +43,29 @@ body {
 }
 
 .container {
-    background-color: var(--background-color);
+    background-color: var(--background-container-color);
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    /* width: 100%; */
-    /* max-width: 1200px; */
     margin: 0 auto;
     padding: 20px;
-    border: 1px solid var(--pink);
+    border: 1px solid var(--accent);
 }
 
 .left {
     padding: 20px;
-    /* float: left ; */
 }
 
 .left h1 {
-    color: var(--pink);
+    color: var(--accent);
     margin: 0;
 }
 
-.left p{
-    font-family: 'IBM Plex Mono', monospace;
-}
-
-.square-img img{
+.square-img img {
     width: 360px;
     max-width: 500px;
     height: auto;
-}
-
-.time-container strong{
-    /* margin-bottom: 40px; */
-    text-align: left;
-    font-family: 'IBM Plex Mono', monospace;
 }
 
 .right {
@@ -84,13 +82,12 @@ body {
 
 .category h3 {
     font-size: 1rem;
-    color: var(--pink);
+    color: var(--accent);
 }
 
 .category a {
     display: table;
-    font-family: 'IBM Plex Mono', monospace;
-    text-decoration: none;
+    /* text-decoration: none; */
     color: var(--link-color);
     transition: color 0.2s;
 }
@@ -109,8 +106,8 @@ body {
     padding: 10px;
     border: 1px solid var(--link-color);
     font-size: 16px;
-    font-family: 'IBM Plex Mono', monospace;
-    color: var(--pink);
+    font-family: 'Iosevka Nerd Font Propo', monospace;
+    color: var(--accent);
     background-color: transparent;
 }
 
@@ -128,7 +125,7 @@ body {
         text-align: center;
     }
 
-    .time-container{
+    .time-container {
         text-align: center;
     }
 
@@ -140,7 +137,7 @@ body {
         line-height: 3vh;
     }
 
-    .square-img img{
+    .square-img img {
         /* visibility: hidden; */
         width: 35vh;
     }
