@@ -28,7 +28,7 @@
 
 body {
     /* background-color: var(--background-color); */
-    background: url("/src/img/castle.jpg") rgba(10, 22, 18, 0.6);
+    background: url("../img/castle.jpg") rgba(10, 22, 18, 0.6);
     background-size: cover;
     color: var(--text-color);
     margin: 0;
