@@ -1,19 +1,11 @@
 :root {
-    --background-color: #0a1612;
-    --background-container-color: #16221e;
-    --text-color: #ffffff;
-    --text-grey: #334B46;
-    --accent: #b2d26b;
-    --link-color: #38C6B7;
-    --link-dim: #107678;
-
-    /* --background-color: #131313;
+    --background-color: #131313;
     --background-container-color: #131313;
     --text-color: #ffffff;
     --text-grey: #6d6d6d;
     --accent: #E621AF;
     --link-color: #09e4e6;
-    --link-dim: #08babd; */
+    --link-dim: #08babd;
 }
 
 ::moz-selection {
@@ -27,8 +19,7 @@
 }
 
 body {
-    /* background-color: var(--background-color); */
-    background: url("../img/castle.jpg") rgba(10, 22, 18, 0.6);
+    background-color: var(--background-color);
     background-size: cover;
     color: var(--text-color);
     margin: 0;
@@ -95,7 +86,7 @@ body {
 
 .category a {
     display: table;
-    /* text-decoration: none; */
+    text-decoration: none;
     color: var(--link-color);
     transition: color 0.2s;
 }
